@@ -9,7 +9,7 @@ if(DEFINED XP_NAMESPACE)
     BASE 20210625 XPDIFF "intro" FIND_THREADS
     WEB "https://www.password-hashing.net" UPSTREAM "github.com/P-H-C/phc-winner-argon2"
     DESC "The reference C implementation of the Argon2, the password-hashing function that won the Password Hashing Competition (PHC)"
-    LICENSE "[CC0-1.0 or Apache-2.0](https://github.com/P-H-C/phc-winner-argon2/blob/master/LICENSE 'dual licensed under Creative Commons Zero v1.0 Universal and Apache License, Version 2.0')"
+    LICENSE "[CC0-1.0 OR Apache-2.0](https://github.com/P-H-C/phc-winner-argon2/blob/master/LICENSE 'dual licensed under Creative Commons Zero v1.0 Universal and Apache License, Version 2.0')"
     )
   set(nameSpace NAMESPACE ${XP_NAMESPACE}::)
 elseif(NOT DEFINED CMAKE_INSTALL_CMAKEDIR)
