@@ -77,7 +77,7 @@ add_test(NAME testx COMMAND testx)
 set(targetsFile ${PROJECT_NAME}-targets)
 if(COMMAND xpExternPackage)
   xpExternPackage(TARGETS_FILE ${targetsFile}
-    LIBRARIES ${lib_name}
+    LIBRARIES ${lib_name} DEFAULT_TARGETS ${lib_name}
     BASE 20210625 XPDIFF "intro"
     WEB "https://www.password-hashing.net" UPSTREAM "github.com/P-H-C/phc-winner-argon2"
     DESC "The reference C implementation of the Argon2, the password-hashing function that won the Password Hashing Competition (PHC)"
